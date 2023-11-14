@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: blueviolet;
+}
+h1{ text-align: center;
+}
+H2{
+  margin: 0;
+  text-decoration: underline;
+  text-align: center;
+   padding: 0px;
+}
+.main{
+    width: 25%;
+    margin:auto;
+
+    border:2px solid black;
+}
+#task-input{
+    margin:5px auto;
+    width:60%;
+}
+#btn{
+    margin:5px auto;
+    width:40%;
+    border-radius: 20%;
+    background-color: whitesmoke;
+
+}
+#btn:hover{
+    background-color: cadetblue;
+}
+p{color: white;
+    text-align: center;
+font-size: 20px;}
+
+#app {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+}
+button{
+    background-color: brown;
+}
+
+.task-container {
+    border: 3px solid black;
+    padding: 10px;
+    min-height: 50px;
+    margin:2px;
+
+    width:50%; /* Adjust as needed */
+}
+
+.task {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: move;
+}
+
+#add-task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
